@@ -1,0 +1,9 @@
+
+.button{
+    @include button(#ff0000, #ffffff, 10px)
+}
+
+.btn-primary{
+    @extend .button;
+}
+
